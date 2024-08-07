@@ -240,14 +240,12 @@ h2 {
 }
 
 
-/* Contact Us Page*/
-
-.container {
+/* Contact Us Page */
+.contact-container {
   max-width: 800px;
   margin: auto;
   padding: 2rem;
 }
-
 
 form {
   background-color: #F2D399; 
@@ -256,7 +254,6 @@ form {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
 }
 
-
 form label {
   display: block;
   margin-bottom: 0.5rem;
@@ -264,7 +261,6 @@ form label {
   font-weight: 700;
   color: #3C92A6; 
 }
-
 
 form input[type="text"],
 form input[type="email"],

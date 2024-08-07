@@ -16,8 +16,8 @@
   <body> 
     <nav class="navbar navbar-expand-lg custom-navbar">
       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
       <div class="container-fluid">
         <ul class="nav nav-pills nav-justified w-100">
           <li class="nav-item flex-fill">
@@ -38,45 +38,39 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<!-- Main Content-->
+    <!-- Main Content -->
+    <div class="contact-container">
+      <form action="./index.html">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-<div class="container">
-  <form action="./index.html">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-
+        <input type="submit" value="Submit">
+      </form>
+    </div>
 
   </body>
-<!-- Footer-->
-
-<footer class="footer mt-auto">
-  <div class="footer-content text-center">
-    <p class="mb-0">&copy; 2024 Bulgaria Destinations. All rights reserved.</p>
-    <ul class="list-inline footer-links">
-      <li class="list-inline-item"><a href="index.html">Home</a></li>
-      <li class="list-inline-item"><a href="destinations.html">Destinations</a></li>
-      <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
-      <li class="list-inline-item"><a href="about.html">About Us</a></li>
-    </ul>
-    <div class="social-icons mt-3">
-      <a href="https://www.facebook.com/bulgariatravel/" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-      <a href="https://twitter.com/bgtravelorg" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
-      <a href="https://www.instagram.com/bulgariatravelorg/?hl=en" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+  
+  <!-- Footer -->
+  <footer class="footer mt-auto">
+    <div class="footer-content text-center">
+      <p class="mb-0">&copy; 2024 Bulgaria Destinations. All rights reserved.</p>
+      <ul class="list-inline footer-links">
+        <li class="list-inline-item"><a href="index.html">Home</a></li>
+        <li class="list-inline-item"><a href="destinations.html">Destinations</a></li>
+        <li class="list-inline-item"><a href="contact.html">Contact Us</a></li>
+        <li class="list-inline-item"><a href="about.html">About Us</a></li>
+      </ul>
+      <div class="social-icons mt-3">
+        <a href="https://www.facebook.com/bulgariatravel/" class="social-icon" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://twitter.com/bgtravelorg" class="social-icon" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+        <a href="https://www.instagram.com/bulgariatravelorg/?hl=en" class="social-icon" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
     </div>
-  </div>
-</footer>
-
-
+  </footer>
 </html>
